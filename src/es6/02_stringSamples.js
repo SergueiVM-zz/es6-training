@@ -23,6 +23,17 @@ function ejemploString2(){
 	console.log(`Hola ${persona.nombre} ${persona.apellido}`);
 }
 
+function ejemploString2(){
+	let contador = 10, precio = 0.25;
+	let nombre = "Jason";
+	console.log(`${contador} piezas cuesta ${(contador * precio).toFixed(2)} €`);
+	
+	console.log(`Hola, ${
+		`mi nombre es ${nombre}`
+	}`);
+}
+
+
 export default function(){
 	ejemploString();
 	ejemploString2();
