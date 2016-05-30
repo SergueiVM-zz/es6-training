@@ -11,6 +11,7 @@ function ejemploLet(){
 	let x = "Primer let"
 	if(true) {
 		let x = 'Segundo let';
+		let x = "Esto casca en el traspilador"
 		console.log(x);
 	}
 	//Esto tiene que dar error.
