@@ -8,10 +8,10 @@ function ejemploVar(){
 }
 
 function ejemploLet(){
-	if(true) {
-		console.log(x); //Esto casca por undefined en consola de navegador
-		let x = 'Segundo let';
+	for(let i=0; i<5; i++){
+		console.log("Soy let con valor", i);
 	}
+	console.log(i);
 }
 
 export default function(){
