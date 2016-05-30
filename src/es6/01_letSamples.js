@@ -8,14 +8,10 @@ function ejemploVar(){
 }
 
 function ejemploLet(){
-	let x = "Primer let"
 	if(true) {
+		console.log(x); //Esto casca por undefined en consola de navegador
 		let x = 'Segundo let';
-		let x = "Esto casca en el traspilador"
-		console.log(x);
 	}
-	//Esto tiene que dar error.
-	console.log(x);
 }
 
 export default function(){
