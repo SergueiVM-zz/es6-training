@@ -11,7 +11,7 @@ function ejemploLet(){
 	for(let i=0; i<5; i++){
 		console.log("Soy let con valor", i);
 	}
-	console.log(i);
+	//console.log(i);
 }
 
 export default function(){

@@ -1,9 +1,9 @@
 'use strict';
 
 import letSamples from './01_letSamples';
-//import stringSamples from './02_stringSamples';
+import stringSamples from './02_stringSamples';
 
 letSamples();
-//stringSamples();
+stringSamples();
 
 export default {};
