@@ -14,8 +14,16 @@ function ejemploString(){
 	console.log(msg.endsWith("o", 8));
 	console.log(msg.includes("o", 8))
 }
-
+function ejemploString2(){
+	const persona = {
+		nombre: "Jason",
+		apellido: "Harris"
+	};
+	
+	console.log(`Hola ${persona.nombre} ${persona.apellido}`);
+}
 
 export default function(){
 	ejemploString();
+	ejemploString2();
 };
