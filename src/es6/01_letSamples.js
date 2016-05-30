@@ -1,13 +1,17 @@
 function ejemploVar(){
+	var x = "Primer var";
 	if(true) {
-		var x = 'Hola mundo';
+		var x = 'Segundo var';
+		console.log(x);
 	}
 	console.log(x);
 }
 
 function ejemploLet(){
+	let x = "Primer let"
 	if(true) {
-		let x = 'Hola mundo';
+		let x = 'Segundo let';
+		console.log(x);
 	}
 	//Esto tiene que dar error.
 	console.log(x);
